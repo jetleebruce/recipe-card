@@ -1,18 +1,21 @@
-This project is created as a learning. The main goal is to understand how to fetch some data from the open API. 
+This project is created for the learning purposes.
 
-Component RandomMeal.js was created to get the data from open API. Visit: https://www.themealdb.com/api.php
+# Result
 
-Fist I defined the API to be ready be used by the component.
+- Clean modern UI. Card with an image, title, description and will see
+- All the information for the card is getting from open API https://www.themealdb.com/api.php
 
-With help of useState and useEffect have fetched the data from API database
+## Process
 
-Actually I had two approaches to fetch data with useEffect. The first one is working.
+- npx create-react-app .
+- Create RandomMeal.js component and putted it to the App.js component
 
-[![useeffect.png](https://i.postimg.cc/CLG6zWvH/useeffect.png)](https://postimg.cc/w7BkrbY7)
+In RandomMeal.js
 
-
-
-
+- Defined the API to be ready be used by the component.
+- With help of useState and useEffect have fetched the data from API database
+- Actually I had two approaches to fetch data with useEffect. The first one is working.
+  [![useeffect.png](https://i.postimg.cc/CLG6zWvH/useeffect.png)](https://postimg.cc/w7BkrbY7)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -28,7 +31,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
@@ -38,4 +40,3 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
