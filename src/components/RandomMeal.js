@@ -22,22 +22,24 @@ const RandomMeal = () => {
 
   if (!meal) return null;
 
+  const { strMeal, strMealThumb, strInstructions, strArea, strCategory } = meal;
+
   return (
     <div>
       <div>
-        <img src='' alt='' />
+        <img src={strMealThumb} alt={strMeal} />
       </div>
       <div>
-        <h2>title</h2>
-        <p>Description</p>
+        <h2>{strMeal}</h2>
+        <p>{strInstructions}</p>
         <ul>
           <li>
             Category:
-            <strong>Dessert</strong>
+            <strong>{strCategory}</strong>
           </li>
           <li>
             Area:
-            <strong>Tunisian</strong>
+            <strong>{strArea}</strong>
           </li>
         </ul>
       </div>
