@@ -25,14 +25,14 @@ const RandomMeal = () => {
   const { strMeal, strMealThumb, strInstructions, strArea, strCategory } = meal;
 
   return (
-    <div className="meal">
-      <div className="img-container">
+    <div className='meal'>
+      <div className='meal-img'>
         <img src={strMealThumb} alt={strMeal} />
       </div>
-      <div>
-        <h2 className="meal-title">{strMeal}</h2>
-        <p className="meal-instruction">{strInstructions}</p>
-        <ul className="meal-info">
+      <div className='meal-details'>
+        <h3 className='meal-title'>{strMeal}</h3>
+        <p className='meal-instruction'>{strInstructions.substring(0, 200) + '...'}</p>
+        <ul className='meal-info'>
           <li>
             Category:
             <strong>{strCategory}</strong>
