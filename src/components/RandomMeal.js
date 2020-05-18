@@ -24,7 +24,23 @@ const RandomMeal = () => {
 
   return (
     <div>
-      <h1 style={{ height: "18px" }}>{meal.strMeal}</h1>
+      <div>
+        <img src='' alt='' />
+      </div>
+      <div>
+        <h2>title</h2>
+        <p>Description</p>
+        <ul>
+          <li>
+            Category:
+            <strong>Dessert</strong>
+          </li>
+          <li>
+            Area:
+            <strong>Tunisian</strong>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
