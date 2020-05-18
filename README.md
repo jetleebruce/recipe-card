@@ -14,8 +14,10 @@ In RandomMeal.js
 
 - Defined the API to be ready be used by the component.
 - With help of useState and useEffect have fetched the data from API database
-- Actually I had two approaches to fetch data with useEffect. The first one is working.
+- Actually I had two approaches to fetch data with useEffect. The first one is working and the title is dispalying.
   [![useeffect.png](https://i.postimg.cc/CLG6zWvH/useeffect.png)](https://postimg.cc/w7BkrbY7)
+- The second approach was taken from official documentation. The title is dispalying
+  [![useeffect2.png](https://i.postimg.cc/C54fksHF/useeffect2.png)](https://postimg.cc/kRB4d8pZ)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
